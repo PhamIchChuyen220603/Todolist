@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.todo{
+    padding: 2rem;
+    width: 200px;
+    height: auto;
+    box-shadow: 5px 5px 10px gray;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.todo-list{
+    color: red;
+    text-align: center;
+}
+
+.todo-HTML:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    transition: 0.5s;
+}
+
+.todo-CSS:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    transition: 0.5s;
+} 
+
+.todo-Js:hover{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    transition: 0.5s;
+} 
+
+.todo-list-button:hover{
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+.todo-input{
+    border: none solid gray;
+}
